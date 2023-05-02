@@ -1,0 +1,114 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .shop {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .shop h2 {
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .shop nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .shop nav ul li {
+    margin-right: 1rem;
+  }
+  
+  .shop nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .shop nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .shop nav ul li a:hover {
+    color: #666;
+  }
+  
+  .shop section {
+    display: none;
+  }
+  
+  .shop section:first-child {
+    display: block;
+  }
+  
+  .shop h3 {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .shop .product {
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .shop .product:last-child {
+    margin-right: 0;
+  }
+  
+  .shop .product img {
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .shop .product h4 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .shop .product p {
+    margin: 0;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .shop .product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
