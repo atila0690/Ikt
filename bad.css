@@ -152,5 +152,23 @@ section ul.testimonials {
 }
 li{
   background-color:#333;
+  border: #333;
+  border-radius: 10px;
+  padding: 10px;
   
+}
+#leiras{
+  background-color: #333;
+  color: gold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+#hozzaszolas{
+  color: gold;
+  text-align: center;
+}
+cite{
+  color: gold;
 }
