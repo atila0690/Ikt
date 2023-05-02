@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-image: url('https://wallpaperaccess.com/full/3375439.jpg');
+  background-image: url('https://storage.needpix.com/rsynced_images/gold-background-1525326265D3Y.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -33,6 +33,7 @@ header {
   background-color: #333;
   color: #fff;
   padding: 1rem;
+  border-radius: 10px;
 }
 
 header h1 {

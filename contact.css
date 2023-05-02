@@ -1,31 +1,40 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  header h1 {
-    font-size: 2rem;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin-right: 1rem;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url('https://storage.needpix.com/rsynced_images/gold-background-1525326265D3Y.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .contact {
     margin: 1rem;
     text-align: center;
