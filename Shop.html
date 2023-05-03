@@ -19,16 +19,41 @@
       </header>
 
       <main>
-        <section class="shop">
-          <nav>
-            <ul>
-              <li><a href="Elektronika.html">Elektronika</a></li>
-              <li><a href="Étel.html">Étel</a></li>
-            </ul>
-          </nav>
-          </section>
+        <section id="categories">
+          <h2 id="ct">Categories</h2>
+          <ul>
+            <li><a href="#" class="active" onclick="filterCategory('all')">All</a></li>
+            <li><a href="#" onclick="filterCategory('electronics')">Electronics</a></li>
+            <li><a href="#" onclick="filterCategory('food')">Food</a></li>
+          </ul>
+        </section>
+        
+        <section id="products">
+          <h2 id="pd">Products</h2>
+          <ul id="product-list">
+            <li class="product-item Food">
+              <img src="https://cdn.discordapp.com/attachments/1088384919157350481/1103031398320840854/pelda.png" alt="Product 1">
+              <h3>Termék 1</h3>
+              <p class="price">10000 Ft</p>
+            </li>
+            <li class="product-item Electronics">
+              <img src="https://cdn.discordapp.com/attachments/1088384919157350481/1103031398320840854/pelda.png" alt="Product 2">
+              <h3>Termék 2</h3>
+              <p class="price">5000 Ft</p>
+            </li>
+            <li class="product-item Food">
+              <img src="https://cdn.discordapp.com/attachments/1088384919157350481/1103031398320840854/pelda.png" alt="Product 3">
+              <h3>Termék 3</h3>
+              <p class="price">15000 Ft</p>
+            </li>
+            <li class="product-item Electronics">
+              <img src="https://cdn.discordapp.com/attachments/1088384919157350481/1103031398320840854/pelda.png" alt="Product 4">
+              <h3>Termék 4</h3>
+              <p class="price">8000 Ft</p>
+            </li>
+          </ul>
+        </section>
       </main>
-      
       
 </body>
 </html>

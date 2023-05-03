@@ -22,3 +22,28 @@ link.addEventListener('click', e => {
 });
 });
 
+function filterCategory(category) {
+    const productList = document.getElementById('product-list');
+    const productItems = productList.querySelectorAll('.product-item');
+    
+    productItems.forEach(item => {
+      if (category === 'all') {
+        item.style.display = 'block';
+      } else if (item.classList.contains(category)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+    
+    const categoryLinks = document.querySelectorAll('#categories a');
+    categoryLinks.forEach(link => {
+      if (link.classList.contains('active')) {
+        link.classList.remove('active');
+      }
+      if (link.getAttribute('onclick').includes(category)) {
+        link.classList.add('active');
+      }
+    });
+  }
+  
