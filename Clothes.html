@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="shop.css">
+    <script src="shop.js"></script>
+    <title>Shop</title>
+</head>
+<body>
+    <header>
+        <h1><img src="https://cdn.discordapp.com/attachments/1088384919157350481/1103011849429078118/BAD_logo.png" width="100px"> </h1>
+        <nav>
+          <ul>
+            <li><a href="IKT.html">Home</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="categories">
+          <h2 id="ct">Categories</h2>
+          <ul>
+            <li><a href="#" class="active" onclick="filterCategory('all')">All</a></li>
+            <li><a href="#" onclick="filterCategory('electronics')">Electronics</a></li>
+            <li><a href="#" onclick="filterCategory('food')">Food</a></li>
+          </ul>
+        </section>
+        
+        <section id="products">
+          <h2 id="pd">Products</h2>
+          <ul id="product-list">
+            <li class="product-item Food">
+              <img src="97.jpg" alt="Product 1">
+              <h3>MSCHF Nike Air Max 97</h3>
+              <p class="price">500000 Ft</p>
+            </li>
+            <li class="product-item Electronics">
+              <img src="https://cdn.discordapp.com/attachments/1088384919157350481/1103031398320840854/pelda.png" alt="Product 2">
+              <h3>Termék 2</h3>
+              <p class="price">5000 Ft</p>
+            </li>
+            <li class="product-item Food">
+              <img src="https://cdn.discordapp.com/attachments/1088384919157350481/1103031398320840854/pelda.png" alt="Product 3">
+              <h3>Termék 3</h3>
+              <p class="price">15000 Ft</p>
+            </li>
+            <li class="product-item Electronics">
+              <img src="https://cdn.discordapp.com/attachments/1088384919157350481/1103031398320840854/pelda.png" alt="Product 4">
+              <h3>Termék 4</h3>
+              <p class="price">8000 Ft</p>
+            </li>
+          </ul>
+        </section>
+      </main>
+      
+</body>
+</html>
