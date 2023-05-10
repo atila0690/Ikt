@@ -10,3 +10,9 @@ const products = [
       price: 1800,
       image: "https://www.glutenmentesetrend.hu/wp-content/uploads/vaddisznoporkolt-glutenmentes-galuskaval-920x425.jpg"
     },
+    {
+      name: "Product 3",
+      price: 2900,
+      image: "https://kep.cdn.indexvas.hu/1/0/1589/15893/158937/15893795_15f3f0db0f9ba4ddd69a72b997b6ac09_wm.jpg"
+    }
+  ];
