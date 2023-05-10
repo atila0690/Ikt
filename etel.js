@@ -22,3 +22,7 @@ const image = document.getElementById("image");
 link.addEventListener("click", function() {
   window.location.href = "Shop.html";
 });
+
+image.addEventListener("click", function(event) {
+  event.stopPropagation();
+});
