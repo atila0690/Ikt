@@ -16,3 +16,5 @@ const products = [
       image: "https://kep.cdn.indexvas.hu/1/0/1589/15893/158937/15893795_15f3f0db0f9ba4ddd69a72b997b6ac09_wm.jpg"
     }
   ];
+const link = document.getElementById("link");
+const image = document.getElementById("image");
