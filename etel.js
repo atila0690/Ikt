@@ -18,3 +18,7 @@ const products = [
   ];
 const link = document.getElementById("link");
 const image = document.getElementById("image");
+
+link.addEventListener("click", function() {
+  window.location.href = "Shop.html";
+});
