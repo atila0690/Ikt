@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1{
+    color: gold;
+  }
+  #FP{
+    width: 227px;
+    background-color: #333;
+    color: gold;
+    text-align: center;
+    border-radius: 12px;
+  }
+  #AU{
+    color: gold;
+    background-color: #333;
+    width: 120px;
+    text-align: center;
+    border-radius: 13px;
+  }
+  #T{
+    color: gold;
+    background-color: #333;
+    width: 170px;
+    text-align: center;
+    border-radius: 13px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-image: url('https://storage.needpix.com/rsynced_images/gold-background-1525326265D3Y.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  a {
+    color: gold;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  #product-description{
+    background-color: #333;
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+nav li {
+    margin-right: 1rem;
+    
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+#product-container{
+    text-align: center;
+    font-size: large;
+    
+}
+#product-image{
+    width: 500px;
+}
